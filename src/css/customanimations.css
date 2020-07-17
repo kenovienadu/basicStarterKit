@@ -1,0 +1,51 @@
+.slide-up {
+  position: relative;
+  animation: slideUp 1s linear;
+}
+
+.fade-in {
+  position: relative;
+  animation: fadeIn 2s linear;
+}
+
+.quickfade {
+  position: relative;
+  animation: quickfadeIn 1s linear;
+}
+
+
+@keyframes slideUp {
+  0% {
+    bottom: -200px;
+    opacity: 0;
+  }
+
+  100% {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes quickfadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
